@@ -6,6 +6,7 @@ import Aside from '@/components/Aside';
 import Footer from '@/components/Footer';
 
 import { motion } from 'framer-motion';
+import Section from '@/components/Section';
 
 const About: React.FC = () => {
    return (
@@ -31,6 +32,8 @@ const About: React.FC = () => {
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum esse placeat consequuntur ipsum earum quidem, atque eum laudantium, ea provident vitae nostrum, magnam sit nam delectus blanditiis. Atque, nulla voluptatem?
               </p>
           </div>
+
+          <Section />
 
             <Footer />
 

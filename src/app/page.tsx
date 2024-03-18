@@ -6,6 +6,7 @@ import Aside from "@/components/Aside";
 
 
 import { motion } from "framer-motion";
+import Section from "@/components/Section";
 
 export default function Home() {
   return (
@@ -42,6 +43,8 @@ export default function Home() {
           </div>
 
     </motion.div>
+
+    <Section />
      
     </>
 
