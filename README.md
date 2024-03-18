@@ -1,6 +1,23 @@
 # Page Transitions Framer motion
 ![image](https://github.com/amadich/PageTransitions_Framer_Motion/assets/74735976/ddcf3b94-ae54-49df-b548-bbe40733abfe)
 
+# Make your children_Pages inside AnimatePresence
+
+```tsx
+import { AnimatePresence } from "framer-motion";
+```
+
+```tsx
+// layout.tsx 
+<body className={inter.className}>
+
+        <AnimatePresence>
+            {children}
+        </AnimatePresence>
+        
+      </body>
+```
+
 ```tsx
 import { motion } from "framer-motion";
 ```
